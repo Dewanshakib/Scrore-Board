@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #8ecae6;
+    display: flex;
+    justify-content: center;
+}
+.calculator{
+    width: 575px;
+    height: 385px;
+    background: #023047;
+    margin-top: 12%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr)
+}
+.item-1{
+    text-align: center;
+}
+.item-2{
+    text-align: center;
+}
+.item-1 > h1{
+    font-size: 55px;
+    color: #fff;
+}
+.item-2 > h1{
+    font-size: 55px;
+    color: #fff;
+}
+.item-1 > h2{
+    font-size: 100px;
+    color: rgb(187, 55, 55);
+    width: 90%;
+    margin-top: 20%;
+}
+.item-2 > h2{
+    font-size: 100px; 
+    color: rgb(187, 55, 55);
+    width: 90%;
+    margin-top: 20%;
+}
+.buttons-1{
+    margin-right: 9%;
+    margin-top: 6%;
+}
+.buttons-2{
+    margin-left: 0%;
+    margin-top: 6%;
+}
+.buttons-1 > button{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.buttons-2 > button{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.divider{
+    margin-left: 79%;
+}
+.divider > button{
+    width: 100px;
+    height: 40px;
+    font-size: 18px;
+    transition: all 0.5s ease 0s;
+    border-radius: 10px;
+}
+.divider > button:hover{
+    background: rgb(143, 30, 30);
+}
